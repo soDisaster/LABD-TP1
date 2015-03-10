@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE d1 SYSTEM "d1.dtd"> 
+<!-- <!DOCTYPE d2 SYSTEM "d2.dtd"> -->
+<!--<!DOCTYPE d3 SYSTEM "d3.dtd"> -->
+<A>
+	<B>
+		<C>1</C>
+		<C>2</C>
+	</B>
+	<F>3</F>
+</A>

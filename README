@@ -1,0 +1,43 @@
+Anne Sophie SAINT-OMER
+
+Les trois premiers exercices de ce TP ont été réalisé en binôme avec Thibault Rosa.
+
+--- Exercice 1 ---
+
+Voir exo1.xml
+
+
+
+--- Exercice 2 ---
+
+Voir Exercices2-3/src/exo2/LABDHandler.java
+
+
+
+--- Exercice 3 ---
+
+Les fichiers a1.xml, a2.xml et a3.xml contenant les lignes ajoutées pour tester les DTD sont dans Exercice2-3/src/exo3/ 
+
+On a : 
+
+- d1.dtd valide a1.xml et a2.xml
+- d2.dtd valide a2.xml et a3.xml
+- d3.dtd valide a2.xml
+
+
+
+--- Exercice 4 ---
+
+Voir Exercice4/iteneraire.dtd et Exercice4/itineraire.xml
+
+
+--- Exercice 5 ---
+
+Voir Exercice5/famille.dtd
+
+
+--- Exercice 6 ---
+
+Voir Exercice6/maisons.dtd
+
+

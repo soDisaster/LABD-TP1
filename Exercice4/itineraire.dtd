@@ -1,0 +1,42 @@
+<!ELEMENT  itineraire (informations,etapes)>
+
+<!ELEMENT  informations (depart, arrivee, dateDepart, heureDepart, mode, preference, vitesseDeMarche, tempsDeParcours-heures-minutes)>
+<!ELEMENT  etapes ((prendre, descendre, correspondance)*, (prendre, descendre))>
+
+<!ELEMENT  depart (villeDepart,lieuDepart)>
+<!ELEMENT  arrivee (villeArrivee,lieuArrivee)>
+<!ELEMENT  dateDepart (jour, nombre, mois)>
+<!ELEMENT  heureDepart (#PCDATA)>
+<!ELEMENT  mode (#PCDATA)>
+<!ELEMENT  preference (#PCDATA)>
+<!ELEMENT  vitesseDeMarche (#PCDATA)>
+<!ELEMENT  tempsDeParcours-heures-minutes (#PCDATA)>
+
+<!ELEMENT  villeDepart (#PCDATA)>
+<!ELEMENT  lieuDepart (#PCDATA)>
+<!ELEMENT  villeArrivee (#PCDATA)>
+<!ELEMENT  lieuArrivee (#PCDATA)>
+
+<!ELEMENT  prendre (heurePrendre,modeTransport,numeroLigne, directionPrendre, dureeEtape-min)>
+<!ELEMENT  descendre (heureDescendre,directionDescendre)>
+<!ELEMENT  correspondance (dureeCorrespondance-min)>
+
+<!ELEMENT  heurePrendre (#PCDATA)>
+<!ELEMENT  modeTransport (#PCDATA)>
+<!ELEMENT  numeroLigne (#PCDATA)>
+<!ELEMENT  directionPrendre (villePrendre, terminus)>
+<!ELEMENT  dureeEtape-min (#PCDATA)>
+<!ELEMENT  villePrendre (#PCDATA)>
+<!ELEMENT  terminus (#PCDATA)>
+
+<!ELEMENT  heureDescendre (#PCDATA)>
+<!ELEMENT  directionDescendre (villeDescendre, arret)>
+<!ELEMENT  villeDescendre (#PCDATA)>
+<!ELEMENT  arret (#PCDATA)>
+
+<!ELEMENT  dureeCorrespondance-min (#PCDATA) >
+
+
+
+
+

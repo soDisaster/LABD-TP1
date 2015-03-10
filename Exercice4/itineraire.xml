@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE exo4 SYSTEM "itineraire.dtd"> 
+<itineraire>
+	<informations> 
+		<depart>
+			<villeDepart> Seclin </villeDepart>
+			<lieuDepart> Centre Hospitalier </lieuDepart>
+		 </depart>
+		<arrivee>
+			<villeArrivee> Roubaix </villeArrivee>
+			<lieuArrivee> Avenue Motte </lieuArrivee>
+		</arrivee>
+		<dateDepart> 
+			<jour> Mardi </jour>
+			<nombre> 22 </nombre>
+			<mois> Janvier </mois>
+		</dateDepart>
+		<heureDepart> 12h35 </heureDepart>
+		<mode> Métro-Tramway-Bus-Car </mode>
+		<preference> Arriver le plus rapidement </preference>
+		<vitesseDeMarche> Normale </vitesseDeMarche>
+		<tempsDeParcours-heures-minutes> 1h27min </tempsDeParcours-heures-minutes>
+	</informations>
+	<etapes>
+		<prendre>
+			<heurePrendre> 14h51 </heurePrendre>
+			<modeTransport> Bus  </modeTransport>
+			<numeroLigne> 52 </numeroLigne>
+			<directionPrendre>
+				<villePrendre> Villeneuve d'Ascq </villePrendre>
+				<terminus> 4 Cantons Grand Stade </terminus>
+			</directionPrendre>
+			<dureeEtape-min> 13 </dureeEtape-min>
+		</prendre>
+		<descendre>
+			<heureDescendre> 15h14 </heureDescendre>
+			<directionDescendre>
+				<villeDescendre> Lille </villeDescendre>
+				<arret> CHR B Calmette </arret>
+			</directionDescendre>
+		</descendre>
+		<correspondance> 
+			<dureeCorrespondance-min> 4 </dureeCorrespondance-min>
+		</correspondance>
+		<prendre>
+			<heurePrendre> 15h18 </heurePrendre>
+			<modeTransport> Métro  </modeTransport>
+			<numeroLigne> 1 </numeroLigne>
+			<directionPrendre>
+				<villePrendre> Villeneuve d'Ascq </villePrendre>
+				<terminus> 4 Cantons Grand Stade </terminus>
+			</directionPrendre>
+			<dureeEtape-min> 3 </dureeEtape-min>
+		</prendre>
+		<descendre>
+			<heureDescendre> 15h21 </heureDescendre>
+			<directionDescendre>
+				<villeDescendre> Lille </villeDescendre>
+				<arret> Porte des Postes </arret>
+			</directionDescendre>
+		</descendre>
+		<correspondance> 
+			<dureeCorrespondance-min> 6 </dureeCorrespondance-min>
+		</correspondance>
+		<prendre>
+			<heurePrendre> 15H27 </heurePrendre>
+			<modeTransport> Métro  </modeTransport>
+			<numeroLigne> 2 </numeroLigne>
+			<directionPrendre>
+				<villePrendre> Tourcoing </villePrendre>
+				<terminus> CH-Dron </terminus>
+			</directionPrendre>
+			<dureeEtape-min> 25 </dureeEtape-min>
+		</prendre>
+		<descendre>
+			<heureDescendre> 15h52 </heureDescendre>
+			<directionDescendre>
+				<villeDescendre> Roubaix </villeDescendre>
+				<arret> Epeule Montesqieu </arret>
+			</directionDescendre>
+		</descendre>
+		<correspondance> 
+			<dureeCorrespondance-min> 4 </dureeCorrespondance-min>
+		</correspondance>
+		<prendre>
+			<heurePrendre> 15h56 </heurePrendre>
+			<modeTransport> Bus  </modeTransport>
+			<numeroLigne> 25 </numeroLigne>
+			<directionPrendre>
+				<villePrendre> Roubaix </villePrendre>
+				<terminus> fraternité </terminus>
+			</directionPrendre>
+			<dureeEtape-min> 9 </dureeEtape-min>
+		</prendre>
+		<descendre>
+			<heureDescendre> 16h05 </heureDescendre>
+			<directionDescendre>
+				<villeDescendre> Roubaix </villeDescendre>
+				<arret> Avenue Motte </arret>
+			</directionDescendre>
+		</descendre>
+	</etapes>
+</itineraire>
+		

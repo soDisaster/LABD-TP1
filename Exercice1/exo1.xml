@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<monde>
+	<pays>
+		<nom> France </nom>
+		<capitale> Paris </capitale> 
+		<population date="2007"> 64102000 </population>
+	</pays>
+	<pays>
+		<nom> Italie </nom>
+		<capitale> Rome </capitale> 
+		<population date="2006"> 58133509 </population>
+	</pays>
+	<pays>
+		<nom> Espagne </nom>
+		<capitale> Madrid </capitale> 
+		<population date="2006"> 44708964 </population>
+	</pays>
+</monde> 
